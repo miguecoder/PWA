@@ -1,0 +1,27 @@
+/* .card {
+    min-height: 100% !important;
+  } */
+  * {
+    box-sizing: border-box;
+    overflow-x: hidden;
+  }
+
+  :root {
+    --max: 18rem;
+  }
+
+  body {
+    margin: 0;
+    padding: 0;
+    min-height: 100%;
+  }
+
+  .card-img-top {
+    width: 100%;
+    height: calc(var(--max));
+    object-fit: cover;
+  }
+  a:link {
+    color: black;
+    text-decoration: none;
+  }

@@ -1,0 +1,28 @@
+{
+    "usuarios":[
+        {
+            "id":1,
+            "Correo": "mm@gmail.com",
+            "Contraseña": "87b6753de974ab2f3dfa8a388df26e9a7b737529",
+            "Nombre": "Miguel",
+            "Apellido": "Marquez"
+
+        },
+        {
+            "id":1,
+            "Correo": "mam@gmail.com",
+            "Contraseña": "87b6753de974ab2f3dfa8a388df26e9a7b737529",
+            "Nombre": "Santi",
+            "Apellido": "Marquez"
+
+        },
+        {
+            "id":1,
+            "Correo": "mmm@gmail.com",
+            "Contraseña": "87b6753de974ab2f3dfa8a388df26e9a7b737529",
+            "Nombre": "Juan",
+            "Apellido": "Marquez"
+
+        }
+    ]
+}

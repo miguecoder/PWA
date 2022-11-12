@@ -1,0 +1,29 @@
+{
+  "short_name": "Ensigna",
+  "name": "Ensigna escuela Online",
+  "description": "Ensigna es la aplicación numero 1 de educación Online en todo latinoamerica, ¿Que esperas para ser parte de esta?",
+  "background_color": "#ffffff",
+  "theme_color": "#ebf3ff",
+  "orientation": "portrait",
+  "display": "standalone",
+  "start_url": "/?utm_source=web_app_manifest",
+  "scope": "./",
+  "lang": "es-MX",
+  "icons": [
+    {
+      "src": "favicon.ico",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "logo192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "logo512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ]
+}
