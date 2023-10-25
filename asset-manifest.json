@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/PWA/static/css/main.f1950de4.css",
+    "main.js": "/PWA/static/js/main.c8d5a637.js",
+    "static/js/787.cda612ba.chunk.js": "/PWA/static/js/787.cda612ba.chunk.js",
+    "static/media/gerenciaproyectos.png": "/PWA/static/media/gerenciaproyectos.b6360042b6361f0b3680.png",
+    "static/media/uiux.jpg": "/PWA/static/media/uiux.031dac527ec268851189.jpg",
+    "static/media/cienciadatos.jpg": "/PWA/static/media/cienciadatos.1709f8885593259fed82.jpg",
+    "static/media/fullstack.png": "/PWA/static/media/fullstack.c024f2fa7e5e83c678fa.png",
+    "static/media/software.jpeg": "/PWA/static/media/software.81d590b79e2076192157.jpeg",
+    "static/media/robotica.jpg": "/PWA/static/media/robotica.ed3f8700bc273b3d2096.jpg",
+    "static/media/empresas.png": "/PWA/static/media/empresas.4e009b5bc2c28bd19072.png",
+    "service-worker.js": "/PWA/service-worker.js",
+    "static/media/idesoftware.png": "/PWA/static/media/idesoftware.fc40e127f50d5621681d.png",
+    "static/media/desarrollo.webp": "/PWA/static/media/desarrollo.643f49ef242d221794cb.webp",
+    "static/media/googleux.webp": "/PWA/static/media/googleux.3cb04383574bc3a4166f.webp",
+    "static/media/pythonML.png": "/PWA/static/media/pythonML.83fad190e8c49684d21c.png",
+    "static/media/metaios.jpg": "/PWA/static/media/metaios.2bd10de7ba337ed94eff.jpg",
+    "static/media/Portada.png": "/PWA/static/media/Portada.73ac4ec5b73dd8997ada.png",
+    "index.html": "/PWA/index.html",
+    "main.f1950de4.css.map": "/PWA/static/css/main.f1950de4.css.map",
+    "main.c8d5a637.js.map": "/PWA/static/js/main.c8d5a637.js.map",
+    "787.cda612ba.chunk.js.map": "/PWA/static/js/787.cda612ba.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f1950de4.css",
+    "static/js/main.c8d5a637.js"
+  ]
+}
