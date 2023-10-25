@@ -86,6 +86,7 @@ class Iniciosesion extends React.Component {
                           aria-describedby="helpId"
                           placeholder=""
                           onChange={this.handleChange}
+                          required
                         />
                         <small id="helpId" className="form-text text-muted">
                           Escriba su nombre de usuario o correo electronico.
@@ -102,6 +103,7 @@ class Iniciosesion extends React.Component {
                           aria-describedby="helpId"
                           placeholder=""
                           onChange={this.handleChange}
+                          required
                         />
                         <small id="helpId" className="form-text text-muted">
                           Escriba su contraseña.

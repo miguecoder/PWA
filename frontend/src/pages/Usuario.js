@@ -16,6 +16,7 @@ class Usuarios extends React.Component {
     rende(){
         return (
             <div>
+                <h1>Usuarios</h1>
 
             </div>
         )

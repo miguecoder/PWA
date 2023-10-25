@@ -11,16 +11,21 @@ import Profile from '../pages/Profile';
 import CursosS from '../pages/CoursesS';
 import CursosSL from '../pages/CoursesSL';
 import Usuarios from '../pages/Usuario';
+import Call from '../pages/Llamada';
+
+import Videollamada from '../pages/videollamada';
+
 
 
 function App() {
   return (
     <Router>
         <Routes>
-          <Route exact path='/' element={<Inicio/>}/>
+          <Route exact path='/Call' element={<Inicio/>}/>
           <Route exact path='/login' element={<Login/>}/>
           <Route exact path='/register' element={<Register/>}/>
           <Route exact path='/home' element={<Home/>}/>
+
           <Route exact path='/homeL' element={<HomeL/>}/>
           <Route exact path='/courses' element={<Courses/>}/>
           <Route exact path='/profile' element={<Profile/>}/>
@@ -28,7 +33,9 @@ function App() {
           <Route exact path='/coursesL' element={<CoursesL/>}/>
           <Route exact path='/coursesS' element={<CursosS/>}/>
           <Route exact path='/coursesSL' element={<CursosSL/>}/>
-          <Route exact path='/usuarios' componet={<Usuarios/>}/>
+          <Route exact path='/usuarios' element={<Usuarios/>}/>
+          <Route exact path='/' element={<Call/>}/>
+          <Route exact path='/videollamada' element={<Videollamada/>}/>
         </Routes>
       
     </Router>
