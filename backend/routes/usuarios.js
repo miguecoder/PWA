@@ -30,6 +30,34 @@ router.post('/', (req, res)=>{
   
   });
 
+router.put('/:id', (req, res) => {
+    const { id } = req.params;
+    const { Correo, Nombre_U, Apellido, Departamento, Ciudad, Ocupacion } = req.body;
+    
+    let usuario = [Correo, Nombre_U, Apellido, Departamento, Ciudad, Ocupacion, id];
+    
+    let actualizarUsuario = `UPDATE usuarios SET Correo = ?, Nombre_U = ?, Apellido = ?, Departamento = ?, Ciudad = ?, Ocupacion = ? WHERE id = ?`;
+    
+    mysqlConnection.query(actualizarUsuario, usuario, (err, results, fields) => {
+        if(err){
+            return console.error(err.message);
+        } else{
+            res.json({message: `Usuario actualizado correctamente`})
+        }
+    });
+});
+
+router.get('/:id', (req, res) => {
+    const { id } = req.params;
+    mysqlConnection.query('SELECT * FROM usuarios WHERE id = ?', [id], (err, rows, fields) => {
+        if(!err) {
+            res.json(rows[0]);
+        } else {
+            console.log(err);
+        }
+    });
+});
+
  
 
 module.exports = router;

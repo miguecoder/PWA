@@ -12,6 +12,7 @@ import CursosS from '../pages/CoursesS';
 import CursosSL from '../pages/CoursesSL';
 import Usuarios from '../pages/Usuario';
 import Call from '../pages/Llamada';
+import EditProfile from '../pages/EditProfile';
 
 import Videollamada from '../pages/videollamada';
 
@@ -33,6 +34,7 @@ function App() {
           <Route exact path='/coursesL' element={<CoursesL/>}/>
           <Route exact path='/coursesS' element={<CursosS/>}/>
           <Route exact path='/coursesSL' element={<CursosSL/>}/>
+          <Route exact path='/edit-profile' element={<EditProfile/>}/>
           <Route exact path='/usuarios' element={<Usuarios/>}/>
           <Route exact path='/' element={<Call/>}/>
           <Route exact path='/videollamada' element={<Videollamada/>}/>

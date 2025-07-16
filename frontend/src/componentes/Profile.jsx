@@ -27,7 +27,7 @@ function ProfileL() {
                 <p className="text-muted mb-1">Full Stack Developer</p>
                 <p className="text-muted mb-4">Bay Area, San Francisco, CA</p>
                 <div className="d-flex justify-content-center mb-2">
-                  <button type="button" className="btn btn-primary">Editar mi perfil</button>
+                  <Link to="/edit-profile" className="btn btn-primary">Editar mi perfil</Link>
                 </div>
               </div>
             </div>
